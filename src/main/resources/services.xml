@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="myCake" class="info.puton.practice.springpractice.beans.Cake">
+        <constructor-arg name="name" value="甜蛋糕"/>
+        <constructor-arg name="type" value="甜的"/>
+        <constructor-arg name="price" value="58"/>
+    </bean>
+
+</beans>
